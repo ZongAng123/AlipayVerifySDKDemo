@@ -1,0 +1,2694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		024C579EE0E3704C47CDF3BF6561B379 /* ZolozOpenPlatformBuild */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 452B38C0DA900F83D926A1A2534F037D /* Build configuration list for PBXAggregateTarget "ZolozOpenPlatformBuild" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6C7D68D35141BC93F1649A181B2F5234 /* PBXTargetDependency */,
+				AF85909215D96C7D931F3E2413AE65CF /* PBXTargetDependency */,
+				D50852EA9F6617C7DF2C8ACE5AF1B495 /* PBXTargetDependency */,
+				3EFC3C75DB5E20D59994E50974F96CB3 /* PBXTargetDependency */,
+				F7DD072256E72C60A36ADD79CF670B10 /* PBXTargetDependency */,
+				82502165594CC3569B816A7EC51E8BFF /* PBXTargetDependency */,
+				5522C01169C7357A55ED3BA94BEDA208 /* PBXTargetDependency */,
+				C36B5C0127EC20C24BA8214435168F53 /* PBXTargetDependency */,
+				759807139703BD95EBAF8ED4128AE11B /* PBXTargetDependency */,
+				C31A323712EA420BA880953DF34B905F /* PBXTargetDependency */,
+			);
+			name = ZolozOpenPlatformBuild;
+		};
+		05B77124956830D55E70AD231B37A5AC /* ZolozMobileRPC */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2ED08D847767BA1C44F2BB34079F98A8 /* Build configuration list for PBXAggregateTarget "ZolozMobileRPC" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ZolozMobileRPC;
+		};
+		08578F12320A56A7DBD47EEC2612A887 /* ZolozIdentityManager */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32468450A17CC785598BDA4D943CC8AB /* Build configuration list for PBXAggregateTarget "ZolozIdentityManager" */;
+			buildPhases = (
+			);
+			dependencies = (
+				FDD73A26631D7811E7878D227272D452 /* PBXTargetDependency */,
+				9E0852624AA481B508F1F9A6A71A2E64 /* PBXTargetDependency */,
+				A4683D139D32E051F6715724FD123C38 /* PBXTargetDependency */,
+			);
+			name = ZolozIdentityManager;
+		};
+		0FF22C9B053BD2467A73ABCBDB62DD2E /* AntVerify */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D8C8D80C33EBE65A665EF6F061B73284 /* Build configuration list for PBXAggregateTarget "AntVerify" */;
+			buildPhases = (
+			);
+			dependencies = (
+				5715BE37F51F184C5DF8A16977675B60 /* PBXTargetDependency */,
+				D9FF1FDEE2A329C1B7163121DA818F86 /* PBXTargetDependency */,
+				97171419D6C1981E0BCD2697B2A01538 /* PBXTargetDependency */,
+				F9DA166FE461DC224AB1AA1DF8D9A4F0 /* PBXTargetDependency */,
+				A9BF0849AE06B078D9F651E8CAD7D15A /* PBXTargetDependency */,
+				9549C61E1B18EE658255EB1560A9284F /* PBXTargetDependency */,
+				FB492CA70C4DE945E568AE1648FD2BCA /* PBXTargetDependency */,
+				1E68202B75BFA713BEA06A5993B37B5A /* PBXTargetDependency */,
+				477D46803FD52B32328B879ECAF26669 /* PBXTargetDependency */,
+				0CC54DE0C132B6A56CF3123410FC82C6 /* PBXTargetDependency */,
+				D938B7DC1C95449F35F21A3DF98605D5 /* PBXTargetDependency */,
+				1AD842329EDF7973954A80230DD011F1 /* PBXTargetDependency */,
+				54CFFEFBB69B3C4C54455CD30CB8105F /* PBXTargetDependency */,
+				3483BAD84154039C4D5750C87CE9F3C8 /* PBXTargetDependency */,
+			);
+			name = AntVerify;
+		};
+		38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C9C6600AF4D0C5544587E6F29D7C9CD0 /* Build configuration list for PBXAggregateTarget "ZolozUtility" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ZolozUtility;
+		};
+		3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6B7D0845C6683F7668371272B90F7406 /* Build configuration list for PBXAggregateTarget "AliyunIdentityManager" */;
+			buildPhases = (
+			);
+			dependencies = (
+				9B16883A26BF24D97F20586EB6CD97C3 /* PBXTargetDependency */,
+				A109468AA025BC2D3AFCA41C70B3422E /* PBXTargetDependency */,
+			);
+			name = AliyunIdentityManager;
+		};
+		434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C61486B002984F169B4FAEBF38B5159C /* Build configuration list for PBXAggregateTarget "BioAuthEngine" */;
+			buildPhases = (
+			);
+			dependencies = (
+				8F7B13B4DD8796B9A821204065C6967A /* PBXTargetDependency */,
+				B528C3F3B4C43C51DA5C3D89924E1B02 /* PBXTargetDependency */,
+				ED5EA81EA8F49B75AD0B1D4C460AB6F7 /* PBXTargetDependency */,
+			);
+			name = BioAuthEngine;
+		};
+		5061DDA811805E406124F9EF8A30A0BA /* ToygerService */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5B81FBC018DAF8D571F859AAF3675BB6 /* Build configuration list for PBXAggregateTarget "ToygerService" */;
+			buildPhases = (
+			);
+			dependencies = (
+				60424551C8DF01EEAB4A2412D55AE9DD /* PBXTargetDependency */,
+				A40DA74F6AD25D2C6F8681DB3E4D5D73 /* PBXTargetDependency */,
+				B88D43DC2DAC4FE31491ED3E760B67D5 /* PBXTargetDependency */,
+			);
+			name = ToygerService;
+		};
+		58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F53CF19304FCB5C03CE7F8694266E6A2 /* Build configuration list for PBXAggregateTarget "BioAuthAPI" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BioAuthAPI;
+		};
+		6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CC219C321F840CADF04C2B7411893EC6 /* Build configuration list for PBXAggregateTarget "ZolozSensorServices" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ZolozSensorServices;
+		};
+		6B48EBB30A463E0EC05769FFA46FC939 /* OCRDetectSDKForTech */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44B5E736180E0F195CD3FADD7DC6446A /* Build configuration list for PBXAggregateTarget "OCRDetectSDKForTech" */;
+			buildPhases = (
+			);
+			dependencies = (
+				7EBF2FF14FF98314F15F786D91FA2542 /* PBXTargetDependency */,
+				46A354ACE1505D5C112975065F6CB166 /* PBXTargetDependency */,
+				9904AB9A49D48750E4F169FB1150C63F /* PBXTargetDependency */,
+			);
+			name = OCRDetectSDKForTech;
+		};
+		8FCB6AB8BA54586A6810A8B628CAFDA0 /* AlipayVerifySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B133EC4EFC0AEAF9DEC6F69B11F6C99D /* Build configuration list for PBXAggregateTarget "AlipayVerifySDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				88DC5A8107D6705CA244B6F48B8D1BF4 /* PBXTargetDependency */,
+				7937D11D5F30C0D8F10CC6AC6B3E1BC5 /* PBXTargetDependency */,
+				DAA3F4503C0A27521853FBC54B7B5D00 /* PBXTargetDependency */,
+				821B5FA7E80D9DFD53D73F158A1FE6AA /* PBXTargetDependency */,
+				F5F03F30D146B2929B8219B540476189 /* PBXTargetDependency */,
+				73C702E41A401679335E43A8ACEA8B53 /* PBXTargetDependency */,
+				32D43FFE921319E4DB942DB195A6B8A9 /* PBXTargetDependency */,
+				B43FAC8939C7D104713D841A9A32A0D9 /* PBXTargetDependency */,
+				23F54A71253E0F16B809C7379C6D806E /* PBXTargetDependency */,
+				BEF349A27239134309B2CE18B0512E77 /* PBXTargetDependency */,
+				8A8B972B20776E1A87AA059F3084BABB /* PBXTargetDependency */,
+				22416822F639AE861E84E4309E6BDA08 /* PBXTargetDependency */,
+				AAD336E30D565867077CF07B43F507F4 /* PBXTargetDependency */,
+			);
+			name = AlipayVerifySDK;
+		};
+		DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4D7A040A94316BB0FD7C109B2A2753C /* Build configuration list for PBXAggregateTarget "APPSecuritySDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = APPSecuritySDK;
+		};
+		E97FB44DFFF423B7FA9B95C95366CA44 /* MPRemoteLogging */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6672F33B7FC458DE1BBE6D0689395191 /* Build configuration list for PBXAggregateTarget "MPRemoteLogging" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MPRemoteLogging;
+		};
+		F4231A651743A9B63DDD86BA0D7EF9EF /* APBToygerFacade */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7437179E95A40A963B79335F682F5C17 /* Build configuration list for PBXAggregateTarget "APBToygerFacade" */;
+			buildPhases = (
+			);
+			dependencies = (
+				98AAAEE4E3A2FD9457872B0E8B33A10D /* PBXTargetDependency */,
+				80A6DDFC8710CCE00C4F34C839274C36 /* PBXTargetDependency */,
+				C11635F83628710BBE839C6EB26A1EE3 /* PBXTargetDependency */,
+			);
+			name = APBToygerFacade;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B9A25B2C3C7834F95A84F8034BCFD4D6 /* Pods-AlipayVerifySDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F66C9B8414DBA09BB194FA28138C0817 /* Pods-AlipayVerifySDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18C8405C109490724B5E1B8340C8A55 /* Pods-AlipayVerifySDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD419A9581A4CC40AC687C832A9A00D /* Pods-AlipayVerifySDKDemo-dummy.m */; };
+		FB27EB763662DA1AA69A8E01AE576C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		017530B748315FEA7F47321B12C4D6C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08578F12320A56A7DBD47EEC2612A887;
+			remoteInfo = ZolozIdentityManager;
+		};
+		01A486FF677D50E54E2FDEDCA0F3043A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECDE45CA8C4E97FA6A8DEF3ADF5633;
+			remoteInfo = BioAuthAPI;
+		};
+		03E4750CF2337363862E900F26220DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5061DDA811805E406124F9EF8A30A0BA;
+			remoteInfo = ToygerService;
+		};
+		086C0AB1E95683A7460BCA1A2F71671C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		0930879FBD089ED618FEE41A83B9CE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4231A651743A9B63DDD86BA0D7EF9EF;
+			remoteInfo = APBToygerFacade;
+		};
+		0CFF2961C8629055D8C615C8280FDBDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		11187E0095A56C2BB224034527DB7379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		1B8829C39B0BB65C4F54368F6CD7ACAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3FF4D8B2B41F944CE04EB3C8014F59;
+			remoteInfo = AliyunIdentityManager;
+		};
+		1C07B1D208474D1FBDCE2731A6718E2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		1FB6806707D221ADD701D6505893EA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B77124956830D55E70AD231B37A5AC;
+			remoteInfo = ZolozMobileRPC;
+		};
+		20338CD0BC61EC9C7FDC73D02E0F1D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B48EBB30A463E0EC05769FFA46FC939;
+			remoteInfo = OCRDetectSDKForTech;
+		};
+		20647C2CAA8387F1359867995345DE6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3FF4D8B2B41F944CE04EB3C8014F59;
+			remoteInfo = AliyunIdentityManager;
+		};
+		229FCD7D71580ECDD8A3332997FAC01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		26A00911D34457A7887DB6672CFE713B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B77124956830D55E70AD231B37A5AC;
+			remoteInfo = ZolozMobileRPC;
+		};
+		2DA3E9F0F35658A99CD42ECE801911F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		3014A0D4877416C71786C0F75060254E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32B9216FAA842D0CDADCF654DAAD41;
+			remoteInfo = APPSecuritySDK;
+		};
+		3632F5DFE647AB68E333F4E99B115E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97FB44DFFF423B7FA9B95C95366CA44;
+			remoteInfo = MPRemoteLogging;
+		};
+		363CE6DFFDDBD177C02D6032EBCAD401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		377D9754CF24AB40C727F553C9C14546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5061DDA811805E406124F9EF8A30A0BA;
+			remoteInfo = ToygerService;
+		};
+		3BF2A4E7C1400E2CAE54F1C16509BBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		3FAA68866293097378779F83E337BFD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B77124956830D55E70AD231B37A5AC;
+			remoteInfo = ZolozMobileRPC;
+		};
+		50939DA1C9C52AC0CB71CF0BF360FF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024C579EE0E3704C47CDF3BF6561B379;
+			remoteInfo = ZolozOpenPlatformBuild;
+		};
+		5225676D10F97DE85C72A87EFFE54F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5061DDA811805E406124F9EF8A30A0BA;
+			remoteInfo = ToygerService;
+		};
+		52BE6CD04A81A1F81D0E636EBA37238A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		5454FBD6641BD92BE934B9C6D3ED9A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08578F12320A56A7DBD47EEC2612A887;
+			remoteInfo = ZolozIdentityManager;
+		};
+		5F2C4AFA86757949CAB3382711C58AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		5F2F10E5D2887ED1C3DEE120FB4AA606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4231A651743A9B63DDD86BA0D7EF9EF;
+			remoteInfo = APBToygerFacade;
+		};
+		61F0280D8157FE2F3E9FEB9557CF700B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		6B8FD6930CD0303E0D97979485122F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5061DDA811805E406124F9EF8A30A0BA;
+			remoteInfo = ToygerService;
+		};
+		6BCECF4A6EE1A265145C3D1C70B33969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4231A651743A9B63DDD86BA0D7EF9EF;
+			remoteInfo = APBToygerFacade;
+		};
+		78983D704B3346E268509796D1C8F400 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5061DDA811805E406124F9EF8A30A0BA;
+			remoteInfo = ToygerService;
+		};
+		7B14215ED74194B705B48421379ED275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		7DE24A219BCFD43D2CDBBB1DD54EDB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		80342BD956EEA11F370B333D6983AEDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		810C063E6ADC613E92453CF3944875A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECDE45CA8C4E97FA6A8DEF3ADF5633;
+			remoteInfo = BioAuthAPI;
+		};
+		8C3297D9A59468D9E09B1AEB075833CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024C579EE0E3704C47CDF3BF6561B379;
+			remoteInfo = ZolozOpenPlatformBuild;
+		};
+		8CA5D512F539730E8B525853308F99BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3FF4D8B2B41F944CE04EB3C8014F59;
+			remoteInfo = AliyunIdentityManager;
+		};
+		8CEF2924076392B0C0DBB25BA4284B5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32B9216FAA842D0CDADCF654DAAD41;
+			remoteInfo = APPSecuritySDK;
+		};
+		8E70215B68422461640CDB608BA7FE52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B77124956830D55E70AD231B37A5AC;
+			remoteInfo = ZolozMobileRPC;
+		};
+		92A2BEE067513622B19B7C22E4EA236E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3FF4D8B2B41F944CE04EB3C8014F59;
+			remoteInfo = AliyunIdentityManager;
+		};
+		993F88D09244BDA23725C7A82D9A5F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97FB44DFFF423B7FA9B95C95366CA44;
+			remoteInfo = MPRemoteLogging;
+		};
+		9ECA99A0A1A0A842834EB8891DF2BE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3FF4D8B2B41F944CE04EB3C8014F59;
+			remoteInfo = AliyunIdentityManager;
+		};
+		A09405E77FFF980EA38677EF51CF467C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B48EBB30A463E0EC05769FFA46FC939;
+			remoteInfo = OCRDetectSDKForTech;
+		};
+		A168235A383D6E8ECC791A6C3FC087CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32B9216FAA842D0CDADCF654DAAD41;
+			remoteInfo = APPSecuritySDK;
+		};
+		A9D39B6F23C1B9A7CAF0D07E80C383CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECDE45CA8C4E97FA6A8DEF3ADF5633;
+			remoteInfo = BioAuthAPI;
+		};
+		AB39AFFC0DB11B87ABD8FFF0B7DA64E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECDE45CA8C4E97FA6A8DEF3ADF5633;
+			remoteInfo = BioAuthAPI;
+		};
+		B68179A417E1989741BCA97E33463C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCB6AB8BA54586A6810A8B628CAFDA0;
+			remoteInfo = AlipayVerifySDK;
+		};
+		B6DBAF28DF8C5BF2820BC8E9E6EBD46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32B9216FAA842D0CDADCF654DAAD41;
+			remoteInfo = APPSecuritySDK;
+		};
+		B847B2A646DF29BC1726E5AACB1706EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		C69943143F0806930B92B815EBBF1571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		C6AA228B9EF70BA061FECDB66AEC4D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B48EBB30A463E0EC05769FFA46FC939;
+			remoteInfo = OCRDetectSDKForTech;
+		};
+		C783474FC0AB3CB621D29037D991C529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD32B9216FAA842D0CDADCF654DAAD41;
+			remoteInfo = APPSecuritySDK;
+		};
+		C7901142EFD0D5AAC37832AAC9E668F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB87A3F57DD4A21EE21252C2B99418C;
+			remoteInfo = ZolozSensorServices;
+		};
+		C98079EF31EA44537DE0C883FC899936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		D1739A354F3D3878A38EA7B3BDC7E235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		D2D914C72E2B4425D5D7EC844BA466F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FCB6AB8BA54586A6810A8B628CAFDA0;
+			remoteInfo = AlipayVerifySDK;
+		};
+		D7A45D69FDE820B3DE1E9381C3361816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4231A651743A9B63DDD86BA0D7EF9EF;
+			remoteInfo = APBToygerFacade;
+		};
+		D857F44AA2C11F23CB94073E8548250F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97FB44DFFF423B7FA9B95C95366CA44;
+			remoteInfo = MPRemoteLogging;
+		};
+		DEE951E2496A89161D63AE614C591F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		DFBCE198D035A956C081FB10F9544C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3FF4D8B2B41F944CE04EB3C8014F59;
+			remoteInfo = AliyunIdentityManager;
+		};
+		E36DEA075EF79727CE5EEF820B591302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		E4020D7946C4CCA3ED44CE1046C022AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FF22C9B053BD2467A73ABCBDB62DD2E;
+			remoteInfo = AntVerify;
+		};
+		E93F85B17C198C86409CE52CBA722F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECDE45CA8C4E97FA6A8DEF3ADF5633;
+			remoteInfo = BioAuthAPI;
+		};
+		E96D50567234A3810BD77AC77734957A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		E9A76A4A356847FE9919BB8A5F688C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434A5D3EFA3E00A8C91C791A1E31DFA3;
+			remoteInfo = BioAuthEngine;
+		};
+		EDDBE6D1F0DEC3B4A93CE886ED77A54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38DF7213013CE949C186ACF206DF7AD3;
+			remoteInfo = ZolozUtility;
+		};
+		F06F8343D39F023C95CC8D3F2721C294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08578F12320A56A7DBD47EEC2612A887;
+			remoteInfo = ZolozIdentityManager;
+		};
+		F6A5A30C34A1CC1CFEB568EF3D92C614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 024C579EE0E3704C47CDF3BF6561B379;
+			remoteInfo = ZolozOpenPlatformBuild;
+		};
+		FE4C459C193905675A14C0520607BE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97FB44DFFF423B7FA9B95C95366CA44;
+			remoteInfo = MPRemoteLogging;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040EE65F037E64744A2C192EE6BDC300 /* ToygerService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ToygerService.framework; sourceTree = "<group>"; };
+		0493E70048E9E973D22C72414DC2273A /* ZolozUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozUtility.release.xcconfig; sourceTree = "<group>"; };
+		0912CF0CFD408B58F55D97D2717BED69 /* ZolozMobileRPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozMobileRPC.debug.xcconfig; sourceTree = "<group>"; };
+		0F16B97FCB56F1A1870A427327BEF44C /* ZolozUtility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozUtility.framework; sourceTree = "<group>"; };
+		1F6065E90F1AC879F5C1AE5002C0E6E0 /* ZolozSensorServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozSensorServices.debug.xcconfig; sourceTree = "<group>"; };
+		246949F8EA4217FE06C73DDFC77BEA78 /* AlipayVerifySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipayVerifySDK.bundle; path = AlipayVerifySDK.framework/AlipayVerifySDK.bundle; sourceTree = "<group>"; };
+		2955303D4A0C3EBF90487931577ED0AE /* Pods-AlipayVerifySDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlipayVerifySDKDemo-Info.plist"; sourceTree = "<group>"; };
+		2C189E3C37CA4ADD85318E64056150AC /* APBToygerFacade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APBToygerFacade.debug.xcconfig; sourceTree = "<group>"; };
+		31BD67733969144F24D6A250D215715E /* AlipayVerifySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlipayVerifySDK.release.xcconfig; sourceTree = "<group>"; };
+		37D74436A9B202BD6C65BE70BB700A6C /* BioAuthEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthEngine.framework; sourceTree = "<group>"; };
+		3ADC233F92982ABA83BD50BBD5C8B49E /* ZolozIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozIdentityManager.framework; sourceTree = "<group>"; };
+		3E1BB721678C3ED36440F610D53D54B9 /* ZolozIdentityManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozIdentityManager.debug.xcconfig; sourceTree = "<group>"; };
+		43AF28ECE650EBCCCB62F8D0D53D03C1 /* Pods-AlipayVerifySDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlipayVerifySDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45C004FE518FA8254070C9A70BEAB92F /* APBToygerFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APBToygerFacade.framework; sourceTree = "<group>"; };
+		4AB2A7C3DA13FC0C38F2EFB54CAE64C2 /* AliyunIdentityManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunIdentityManager.debug.xcconfig; sourceTree = "<group>"; };
+		4E7C34EEA270A3E8298D0F25FD72E515 /* Pods-AlipayVerifySDKDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AlipayVerifySDKDemo"; path = Pods_AlipayVerifySDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		518AEF53AAC6FA13C76FB41753377664 /* BioAuthEngine.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BioAuthEngine.bundle; path = BioAuthEngine.framework/BioAuthEngine.bundle; sourceTree = "<group>"; };
+		58F756459E0B0E075376CB9D47053FA4 /* ZolozOpenPlatformBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozOpenPlatformBuild.release.xcconfig; sourceTree = "<group>"; };
+		5EE3883932C3BD3AE434C7C895F7A43F /* AliyunIdentityManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AliyunIdentityManager.framework; sourceTree = "<group>"; };
+		6553FC4C7447E508FA36A9660F7A9B1D /* MPRemoteLogging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPRemoteLogging.release.xcconfig; sourceTree = "<group>"; };
+		696C3F42DEC5859A293F4F4F0B08D9AA /* Pods-AlipayVerifySDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlipayVerifySDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B55A0B7466565719E6DAEB11EFD2A17 /* AliyunIdentityManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliyunIdentityManager.release.xcconfig; sourceTree = "<group>"; };
+		6EEB62C9A727D36B7B5985D0A84A15FC /* AntVerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntVerify.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74A039AC87777D33A3843B26F41932ED /* BioAuthEngine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BioAuthEngine.release.xcconfig; sourceTree = "<group>"; };
+		772433F31D5D5C73F85E3DD422E11D53 /* ZolozIdentityManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozIdentityManager.release.xcconfig; sourceTree = "<group>"; };
+		78182A3075655B044D99109702D0E536 /* OCRDetectSDKForTech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCRDetectSDKForTech.framework; sourceTree = "<group>"; };
+		791854AC4466562134A291B1DE37C3BE /* MPRemoteLogging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MPRemoteLogging.debug.xcconfig; sourceTree = "<group>"; };
+		7A1753DA8531EBEEAED7B0D216B310D5 /* APPSecuritySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APPSecuritySDK.debug.xcconfig; sourceTree = "<group>"; };
+		7CBD56310921493EFFD8D78802A86BCC /* BioAuthAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BioAuthAPI.debug.xcconfig; sourceTree = "<group>"; };
+		844C40D60C30EE86800E3EE56C72A515 /* APBToygerFacade.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = APBToygerFacade.bundle; path = APBToygerFacade.framework/APBToygerFacade.bundle; sourceTree = "<group>"; };
+		86DAA29EDC7E5F61CF4ED090BC28F7F5 /* ZolozSensorServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozSensorServices.framework; sourceTree = "<group>"; };
+		8B7CD05863A209F070E9EBCC01BD9A91 /* AntVerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AntVerify.debug.xcconfig; sourceTree = "<group>"; };
+		8BFF5FE6322AD455EBBF5DE3B0511D53 /* Pods-AlipayVerifySDKDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlipayVerifySDKDemo-resources.sh"; sourceTree = "<group>"; };
+		8CD419A9581A4CC40AC687C832A9A00D /* Pods-AlipayVerifySDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlipayVerifySDKDemo-dummy.m"; sourceTree = "<group>"; };
+		8CEC099F52605AE9724BEEFFD03C8D6A /* APBToygerFacade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APBToygerFacade.release.xcconfig; sourceTree = "<group>"; };
+		8EBA5057B599DD6B670E375F2D5C6BE2 /* ToygerService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToygerService.release.xcconfig; sourceTree = "<group>"; };
+		96D944E94B333374B1F84753518EE3BA /* AlipayVerifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipayVerifySDK.framework; sourceTree = "<group>"; };
+		96DAE055CF346058366495C48BAF9C91 /* BioAuthAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BioAuthAPI.release.xcconfig; sourceTree = "<group>"; };
+		9D42BB83D4B0F6465559FF5C99D386CB /* ZolozSensorServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozSensorServices.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7F0E5040B170196F874300F4EF7E949 /* Pods-AlipayVerifySDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlipayVerifySDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B39B4A114236880944B5C71A405D763F /* OCRXMedia.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OCRXMedia.bundle; path = OCRDetectSDKForTech.framework/OCRXMedia.bundle; sourceTree = "<group>"; };
+		B44018A3656686BF0F19D51D8C76FCA1 /* ToygerService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToygerService.debug.xcconfig; sourceTree = "<group>"; };
+		B518FC5D36D58268D1A9482CB87C057B /* OCRDetectSDKForTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRDetectSDKForTech.debug.xcconfig; sourceTree = "<group>"; };
+		C43E502C3C7B0D4271629725A9DD7CE2 /* APPSecuritySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = APPSecuritySDK.framework; sourceTree = "<group>"; };
+		C714668683B23CC7B6CCBBD54433F2D6 /* Pods-AlipayVerifySDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlipayVerifySDKDemo.modulemap"; sourceTree = "<group>"; };
+		D0F8C2920A70D74044CB65B769549324 /* APPSecuritySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APPSecuritySDK.release.xcconfig; sourceTree = "<group>"; };
+		D32F8C2C8813376B0CFE6DB439497C23 /* ZolozOpenPlatformBuild.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozOpenPlatformBuild.framework; sourceTree = "<group>"; };
+		DA4EB1849A5AD9AEE28748C2864199B9 /* ZolozOpenPlatformBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozOpenPlatformBuild.debug.xcconfig; sourceTree = "<group>"; };
+		DD9A268E806743CBA0E53322A8E2781C /* BioAuthAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BioAuthAPI.framework; sourceTree = "<group>"; };
+		DD9BE8F746AA406887BDD38FC1DA52CC /* AlipayVerifySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlipayVerifySDK.debug.xcconfig; sourceTree = "<group>"; };
+		DEABB172D57081D8E9961DCF686B3B8F /* ZolozMobileRPC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZolozMobileRPC.framework; sourceTree = "<group>"; };
+		DFDE095C72DD3FB705BFA9887204852D /* ToygerService.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ToygerService.bundle; path = ToygerService.framework/ToygerService.bundle; sourceTree = "<group>"; };
+		E68F787B36D45B8221D4C3DE5E306CDD /* OCRDetectSDKForTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCRDetectSDKForTech.release.xcconfig; sourceTree = "<group>"; };
+		E75545305C080B7AF385E3A8AF394E89 /* BioAuthEngine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BioAuthEngine.debug.xcconfig; sourceTree = "<group>"; };
+		EB7E386775FDE2C8C27AAB46018207F9 /* ZolozMobileRPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozMobileRPC.release.xcconfig; sourceTree = "<group>"; };
+		ED09D254F0FBBEB09E216284A7967E9D /* ZolozUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZolozUtility.debug.xcconfig; sourceTree = "<group>"; };
+		EED4176E625FE7F9A63E40F2DA0C094A /* Pods-AlipayVerifySDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlipayVerifySDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F66C9B8414DBA09BB194FA28138C0817 /* Pods-AlipayVerifySDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlipayVerifySDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		F97E7F06F80709CBD8AE85D144E02598 /* MPRemoteLogging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPRemoteLogging.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BBE5536A6F93691E21CC92C2AD6136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB27EB763662DA1AA69A8E01AE576C8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008A37F55301930D148A7FBD1DB769D2 /* OCRDetectSDKForTech */ = {
+			isa = PBXGroup;
+			children = (
+				DB8C9472BB53231ED4210663185A61DB /* Frameworks */,
+				18B403D3EDB9C3CE9591E2B8CED0D58B /* Resources */,
+				98CE7D9C228D0A30F3366E4B18EE5182 /* Support Files */,
+			);
+			name = OCRDetectSDKForTech;
+			path = OCRDetectSDKForTech;
+			sourceTree = "<group>";
+		};
+		021EC024CA39A3E5809A5C48B18D6F93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F97E7F06F80709CBD8AE85D144E02598 /* MPRemoteLogging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		122A3962D6A04F0CC7F16AB8C934E379 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B7CD05863A209F070E9EBCC01BD9A91 /* AntVerify.debug.xcconfig */,
+				6EEB62C9A727D36B7B5985D0A84A15FC /* AntVerify.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AntVerify";
+			sourceTree = "<group>";
+		};
+		132796F8362185DF6F70CC75E68E9EA0 /* ToygerService */ = {
+			isa = PBXGroup;
+			children = (
+				6C24D023E817207F91E2CA89AF94A922 /* Frameworks */,
+				805CD0F8F2514E2528252D24D5697354 /* Resources */,
+				13853B768BEB15892592FC422CD982E2 /* Support Files */,
+			);
+			name = ToygerService;
+			path = ToygerService;
+			sourceTree = "<group>";
+		};
+		13853B768BEB15892592FC422CD982E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B44018A3656686BF0F19D51D8C76FCA1 /* ToygerService.debug.xcconfig */,
+				8EBA5057B599DD6B670E375F2D5C6BE2 /* ToygerService.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ToygerService";
+			sourceTree = "<group>";
+		};
+		18B403D3EDB9C3CE9591E2B8CED0D58B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B39B4A114236880944B5C71A405D763F /* OCRXMedia.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19827559CD5315E24D8EA3D7CC1283F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				791854AC4466562134A291B1DE37C3BE /* MPRemoteLogging.debug.xcconfig */,
+				6553FC4C7447E508FA36A9660F7A9B1D /* MPRemoteLogging.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MPRemoteLogging";
+			sourceTree = "<group>";
+		};
+		1F13B31244833941E64198C30FAC964B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED09D254F0FBBEB09E216284A7967E9D /* ZolozUtility.debug.xcconfig */,
+				0493E70048E9E973D22C72414DC2273A /* ZolozUtility.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZolozUtility";
+			sourceTree = "<group>";
+		};
+		271B2EA90CF738367ED76D7C44D27448 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				518AEF53AAC6FA13C76FB41753377664 /* BioAuthEngine.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		27E3F4A818719C0078E8BA7DE17E6563 /* Pods-AlipayVerifySDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C714668683B23CC7B6CCBBD54433F2D6 /* Pods-AlipayVerifySDKDemo.modulemap */,
+				43AF28ECE650EBCCCB62F8D0D53D03C1 /* Pods-AlipayVerifySDKDemo-acknowledgements.markdown */,
+				696C3F42DEC5859A293F4F4F0B08D9AA /* Pods-AlipayVerifySDKDemo-acknowledgements.plist */,
+				8CD419A9581A4CC40AC687C832A9A00D /* Pods-AlipayVerifySDKDemo-dummy.m */,
+				2955303D4A0C3EBF90487931577ED0AE /* Pods-AlipayVerifySDKDemo-Info.plist */,
+				8BFF5FE6322AD455EBBF5DE3B0511D53 /* Pods-AlipayVerifySDKDemo-resources.sh */,
+				F66C9B8414DBA09BB194FA28138C0817 /* Pods-AlipayVerifySDKDemo-umbrella.h */,
+				A7F0E5040B170196F874300F4EF7E949 /* Pods-AlipayVerifySDKDemo.debug.xcconfig */,
+				EED4176E625FE7F9A63E40F2DA0C094A /* Pods-AlipayVerifySDKDemo.release.xcconfig */,
+			);
+			name = "Pods-AlipayVerifySDKDemo";
+			path = "Target Support Files/Pods-AlipayVerifySDKDemo";
+			sourceTree = "<group>";
+		};
+		34E83CE802028CA57DAE46F36664C5CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C004FE518FA8254070C9A70BEAB92F /* APBToygerFacade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		351D68B9B85A02DE29524DE861CE7428 /* ZolozSensorServices */ = {
+			isa = PBXGroup;
+			children = (
+				73B96520D83718AFEF69A62E120F84EF /* Frameworks */,
+				8F1CADC6145562C27C046BB420683562 /* Support Files */,
+			);
+			name = ZolozSensorServices;
+			path = ZolozSensorServices;
+			sourceTree = "<group>";
+		};
+		497702FA790A02FE90B5EC31E86091F1 /* AliyunIdentityManager */ = {
+			isa = PBXGroup;
+			children = (
+				F3A8F707F8D3B0589F2263ADA6EF5645 /* Frameworks */,
+				549E4CD3F23491D131D2472CC595C1FA /* Support Files */,
+			);
+			name = AliyunIdentityManager;
+			path = AliyunIdentityManager;
+			sourceTree = "<group>";
+		};
+		4A97C7172FA9F4ED46E4A9D1255E655C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F16B97FCB56F1A1870A427327BEF44C /* ZolozUtility.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D5EE0B56ED4EAE22F184D98150EDA0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ADC233F92982ABA83BD50BBD5C8B49E /* ZolozIdentityManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54947374B66060DA2676DB3777AF0AAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E1BB721678C3ED36440F610D53D54B9 /* ZolozIdentityManager.debug.xcconfig */,
+				772433F31D5D5C73F85E3DD422E11D53 /* ZolozIdentityManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZolozIdentityManager";
+			sourceTree = "<group>";
+		};
+		549E4CD3F23491D131D2472CC595C1FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2A7C3DA13FC0C38F2EFB54CAE64C2 /* AliyunIdentityManager.debug.xcconfig */,
+				6B55A0B7466565719E6DAEB11EFD2A17 /* AliyunIdentityManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliyunIdentityManager";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5938ABD44722C83DC12DC140DD66B69D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A268E806743CBA0E53322A8E2781C /* BioAuthAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3BDB94B1DAC151F0A43CC8045C2975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C941C86C7795D7A73DFEBFEA9D78624F /* AlipayVerifySDK */,
+				497702FA790A02FE90B5EC31E86091F1 /* AliyunIdentityManager */,
+				C259C25847A31206C1CAE01A5D86C356 /* AntVerify */,
+				A5E9890AD32357FEF8F88603F93E68B3 /* APBToygerFacade */,
+				DB75A6F294C68C2A3A4A83DCD5224004 /* APPSecuritySDK */,
+				F60AFDA6A9347FE770D8F96EC394F877 /* BioAuthAPI */,
+				D839D27A346C7200B098524504207465 /* BioAuthEngine */,
+				6424637E96FCE38046D969FF862DEA2A /* MPRemoteLogging */,
+				008A37F55301930D148A7FBD1DB769D2 /* OCRDetectSDKForTech */,
+				132796F8362185DF6F70CC75E68E9EA0 /* ToygerService */,
+				EA56152710838E48D265DD6B68DE6017 /* ZolozIdentityManager */,
+				719C743541F1CC98A39BFAD24B7EF171 /* ZolozMobileRPC */,
+				EE5BADEBD15D9E401794740B51CC79A3 /* ZolozOpenPlatformBuild */,
+				351D68B9B85A02DE29524DE861CE7428 /* ZolozSensorServices */,
+				B92329C6CEBF9DF1894FD494CBD41AA8 /* ZolozUtility */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64164F6518B4B4B9AAF10E732B9F0703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7C34EEA270A3E8298D0F25FD72E515 /* Pods-AlipayVerifySDKDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6424637E96FCE38046D969FF862DEA2A /* MPRemoteLogging */ = {
+			isa = PBXGroup;
+			children = (
+				021EC024CA39A3E5809A5C48B18D6F93 /* Frameworks */,
+				19827559CD5315E24D8EA3D7CC1283F0 /* Support Files */,
+			);
+			name = MPRemoteLogging;
+			path = MPRemoteLogging;
+			sourceTree = "<group>";
+		};
+		6C24D023E817207F91E2CA89AF94A922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040EE65F037E64744A2C192EE6BDC300 /* ToygerService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CF2E0851239DD01512B9F717EF68989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37D74436A9B202BD6C65BE70BB700A6C /* BioAuthEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		719C743541F1CC98A39BFAD24B7EF171 /* ZolozMobileRPC */ = {
+			isa = PBXGroup;
+			children = (
+				A656B105EA9D38B8FFC8B187A8BB4991 /* Frameworks */,
+				CBCF25C1F09FA72F386576402709AC78 /* Support Files */,
+			);
+			name = ZolozMobileRPC;
+			path = ZolozMobileRPC;
+			sourceTree = "<group>";
+		};
+		73B96520D83718AFEF69A62E120F84EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DAA29EDC7E5F61CF4ED090BC28F7F5 /* ZolozSensorServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75EA591DA783EADC342E5E8676398FAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				844C40D60C30EE86800E3EE56C72A515 /* APBToygerFacade.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		805CD0F8F2514E2528252D24D5697354 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DFDE095C72DD3FB705BFA9887204852D /* ToygerService.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8F1CADC6145562C27C046BB420683562 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6065E90F1AC879F5C1AE5002C0E6E0 /* ZolozSensorServices.debug.xcconfig */,
+				9D42BB83D4B0F6465559FF5C99D386CB /* ZolozSensorServices.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZolozSensorServices";
+			sourceTree = "<group>";
+		};
+		8FE32DB3A734D76D387D05A51B0A53A9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E3F4A818719C0078E8BA7DE17E6563 /* Pods-AlipayVerifySDKDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9815F72BBB144CCCA15DBE48BE49FF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96D944E94B333374B1F84753518EE3BA /* AlipayVerifySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98CE7D9C228D0A30F3366E4B18EE5182 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B518FC5D36D58268D1A9482CB87C057B /* OCRDetectSDKForTech.debug.xcconfig */,
+				E68F787B36D45B8221D4C3DE5E306CDD /* OCRDetectSDKForTech.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCRDetectSDKForTech";
+			sourceTree = "<group>";
+		};
+		9A676CDE27ACE19266CD90D4544C6EFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD9BE8F746AA406887BDD38FC1DA52CC /* AlipayVerifySDK.debug.xcconfig */,
+				31BD67733969144F24D6A250D215715E /* AlipayVerifySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipayVerifySDK";
+			sourceTree = "<group>";
+		};
+		9C9FB371BE3194813E6FFC72C0FA3012 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C189E3C37CA4ADD85318E64056150AC /* APBToygerFacade.debug.xcconfig */,
+				8CEC099F52605AE9724BEEFFD03C8D6A /* APBToygerFacade.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APBToygerFacade";
+			sourceTree = "<group>";
+		};
+		9D884EA76F478ABA07F8D5EEEFA4A25A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D32F8C2C8813376B0CFE6DB439497C23 /* ZolozOpenPlatformBuild.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0D5E2F127E680C9199236CF478DE279 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CBD56310921493EFFD8D78802A86BCC /* BioAuthAPI.debug.xcconfig */,
+				96DAE055CF346058366495C48BAF9C91 /* BioAuthAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BioAuthAPI";
+			sourceTree = "<group>";
+		};
+		A17BC8AE70E85028DD4CB96C8AAC0520 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75545305C080B7AF385E3A8AF394E89 /* BioAuthEngine.debug.xcconfig */,
+				74A039AC87777D33A3843B26F41932ED /* BioAuthEngine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BioAuthEngine";
+			sourceTree = "<group>";
+		};
+		A5E9890AD32357FEF8F88603F93E68B3 /* APBToygerFacade */ = {
+			isa = PBXGroup;
+			children = (
+				34E83CE802028CA57DAE46F36664C5CF /* Frameworks */,
+				75EA591DA783EADC342E5E8676398FAE /* Resources */,
+				9C9FB371BE3194813E6FFC72C0FA3012 /* Support Files */,
+			);
+			name = APBToygerFacade;
+			path = APBToygerFacade;
+			sourceTree = "<group>";
+		};
+		A656B105EA9D38B8FFC8B187A8BB4991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEABB172D57081D8E9961DCF686B3B8F /* ZolozMobileRPC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A70B51B1B59329C2A7A299940E7DA931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C43E502C3C7B0D4271629725A9DD7CE2 /* APPSecuritySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B92329C6CEBF9DF1894FD494CBD41AA8 /* ZolozUtility */ = {
+			isa = PBXGroup;
+			children = (
+				4A97C7172FA9F4ED46E4A9D1255E655C /* Frameworks */,
+				1F13B31244833941E64198C30FAC964B /* Support Files */,
+			);
+			name = ZolozUtility;
+			path = ZolozUtility;
+			sourceTree = "<group>";
+		};
+		BF59D636415806A4E4CAAEA5E4D4D8A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A1753DA8531EBEEAED7B0D216B310D5 /* APPSecuritySDK.debug.xcconfig */,
+				D0F8C2920A70D74044CB65B769549324 /* APPSecuritySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APPSecuritySDK";
+			sourceTree = "<group>";
+		};
+		C1D28F33B0B47EE2F3FD7DE9FC43C9D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				246949F8EA4217FE06C73DDFC77BEA78 /* AlipayVerifySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C259C25847A31206C1CAE01A5D86C356 /* AntVerify */ = {
+			isa = PBXGroup;
+			children = (
+				122A3962D6A04F0CC7F16AB8C934E379 /* Support Files */,
+			);
+			name = AntVerify;
+			path = AntVerify;
+			sourceTree = "<group>";
+		};
+		C941C86C7795D7A73DFEBFEA9D78624F /* AlipayVerifySDK */ = {
+			isa = PBXGroup;
+			children = (
+				9815F72BBB144CCCA15DBE48BE49FF8E /* Frameworks */,
+				C1D28F33B0B47EE2F3FD7DE9FC43C9D3 /* Resources */,
+				9A676CDE27ACE19266CD90D4544C6EFB /* Support Files */,
+			);
+			name = AlipayVerifySDK;
+			path = AlipayVerifySDK;
+			sourceTree = "<group>";
+		};
+		CBCF25C1F09FA72F386576402709AC78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0912CF0CFD408B58F55D97D2717BED69 /* ZolozMobileRPC.debug.xcconfig */,
+				EB7E386775FDE2C8C27AAB46018207F9 /* ZolozMobileRPC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZolozMobileRPC";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5C3BDB94B1DAC151F0A43CC8045C2975 /* Pods */,
+				64164F6518B4B4B9AAF10E732B9F0703 /* Products */,
+				8FE32DB3A734D76D387D05A51B0A53A9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DBA9256A667EEADB8E76798564D75F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA4EB1849A5AD9AEE28748C2864199B9 /* ZolozOpenPlatformBuild.debug.xcconfig */,
+				58F756459E0B0E075376CB9D47053FA4 /* ZolozOpenPlatformBuild.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZolozOpenPlatformBuild";
+			sourceTree = "<group>";
+		};
+		D839D27A346C7200B098524504207465 /* BioAuthEngine */ = {
+			isa = PBXGroup;
+			children = (
+				6CF2E0851239DD01512B9F717EF68989 /* Frameworks */,
+				271B2EA90CF738367ED76D7C44D27448 /* Resources */,
+				A17BC8AE70E85028DD4CB96C8AAC0520 /* Support Files */,
+			);
+			name = BioAuthEngine;
+			path = BioAuthEngine;
+			sourceTree = "<group>";
+		};
+		DB75A6F294C68C2A3A4A83DCD5224004 /* APPSecuritySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A70B51B1B59329C2A7A299940E7DA931 /* Frameworks */,
+				BF59D636415806A4E4CAAEA5E4D4D8A2 /* Support Files */,
+			);
+			name = APPSecuritySDK;
+			path = APPSecuritySDK;
+			sourceTree = "<group>";
+		};
+		DB8C9472BB53231ED4210663185A61DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78182A3075655B044D99109702D0E536 /* OCRDetectSDKForTech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA56152710838E48D265DD6B68DE6017 /* ZolozIdentityManager */ = {
+			isa = PBXGroup;
+			children = (
+				4D5EE0B56ED4EAE22F184D98150EDA0C /* Frameworks */,
+				54947374B66060DA2676DB3777AF0AAC /* Support Files */,
+			);
+			name = ZolozIdentityManager;
+			path = ZolozIdentityManager;
+			sourceTree = "<group>";
+		};
+		EE5BADEBD15D9E401794740B51CC79A3 /* ZolozOpenPlatformBuild */ = {
+			isa = PBXGroup;
+			children = (
+				9D884EA76F478ABA07F8D5EEEFA4A25A /* Frameworks */,
+				D2DBA9256A667EEADB8E76798564D75F /* Support Files */,
+			);
+			name = ZolozOpenPlatformBuild;
+			path = ZolozOpenPlatformBuild;
+			sourceTree = "<group>";
+		};
+		F3A8F707F8D3B0589F2263ADA6EF5645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EE3883932C3BD3AE434C7C895F7A43F /* AliyunIdentityManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F60AFDA6A9347FE770D8F96EC394F877 /* BioAuthAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5938ABD44722C83DC12DC140DD66B69D /* Frameworks */,
+				A0D5E2F127E680C9199236CF478DE279 /* Support Files */,
+			);
+			name = BioAuthAPI;
+			path = BioAuthAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89F91D7C36400D49963AC8B1105B2AE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A25B2C3C7834F95A84F8034BCFD4D6 /* Pods-AlipayVerifySDKDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9629F610F8C192923CE1E593DAD4A61A /* Pods-AlipayVerifySDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AEC7F3D9BC34B1281D1A32A4CDD8D6A /* Build configuration list for PBXNativeTarget "Pods-AlipayVerifySDKDemo" */;
+			buildPhases = (
+				89F91D7C36400D49963AC8B1105B2AE4 /* Headers */,
+				E3DBB06DC992C5E56B49677E7CA68362 /* Sources */,
+				A3BBE5536A6F93691E21CC92C2AD6136 /* Frameworks */,
+				A68B731C1429CAF240AEAA5E62232DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762122CB2DDABBE3CA2CD7695E5BBCEC /* PBXTargetDependency */,
+				4AD734F319D809639845E226F466F2BE /* PBXTargetDependency */,
+				B268AD2F4B21EA233E3C180CB5F3CB6F /* PBXTargetDependency */,
+				7E9AC58C162FE5C57582C2EA54B09746 /* PBXTargetDependency */,
+				31F9EC9CB0138EA9B22192060B009DA4 /* PBXTargetDependency */,
+				E6546FB3C0AFE4B8E065F0BD1B73E97C /* PBXTargetDependency */,
+				03C9E8663DBE8D3AF5DF5F8605F60556 /* PBXTargetDependency */,
+				656A54CD8CFE58296EF9C014FCAD3ECB /* PBXTargetDependency */,
+				D81234A57650DDC49763ACCB677BCB1D /* PBXTargetDependency */,
+				053A71DF170FB4D65E3235AAF42F79AF /* PBXTargetDependency */,
+				434A7B59A887A2FE4D5A0141ED3DB2E9 /* PBXTargetDependency */,
+				5533428DDEF4265ED6A4F6DFCC6A21B2 /* PBXTargetDependency */,
+				3C6C39F655AE617825A1ED4C79AF90BB /* PBXTargetDependency */,
+				C3A41C754757F71A6E613AA31480B4A3 /* PBXTargetDependency */,
+				A52F7F4869D6D485923936EA27482366 /* PBXTargetDependency */,
+			);
+			name = "Pods-AlipayVerifySDKDemo";
+			productName = Pods_AlipayVerifySDKDemo;
+			productReference = 4E7C34EEA270A3E8298D0F25FD72E515 /* Pods-AlipayVerifySDKDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 64164F6518B4B4B9AAF10E732B9F0703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FCB6AB8BA54586A6810A8B628CAFDA0 /* AlipayVerifySDK */,
+				3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */,
+				0FF22C9B053BD2467A73ABCBDB62DD2E /* AntVerify */,
+				F4231A651743A9B63DDD86BA0D7EF9EF /* APBToygerFacade */,
+				DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */,
+				58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */,
+				434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */,
+				E97FB44DFFF423B7FA9B95C95366CA44 /* MPRemoteLogging */,
+				6B48EBB30A463E0EC05769FFA46FC939 /* OCRDetectSDKForTech */,
+				9629F610F8C192923CE1E593DAD4A61A /* Pods-AlipayVerifySDKDemo */,
+				5061DDA811805E406124F9EF8A30A0BA /* ToygerService */,
+				08578F12320A56A7DBD47EEC2612A887 /* ZolozIdentityManager */,
+				05B77124956830D55E70AD231B37A5AC /* ZolozMobileRPC */,
+				024C579EE0E3704C47CDF3BF6561B379 /* ZolozOpenPlatformBuild */,
+				6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */,
+				38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68B731C1429CAF240AEAA5E62232DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3DBB06DC992C5E56B49677E7CA68362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18C8405C109490724B5E1B8340C8A55 /* Pods-AlipayVerifySDKDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03C9E8663DBE8D3AF5DF5F8605F60556 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = E96D50567234A3810BD77AC77734957A /* PBXContainerItemProxy */;
+		};
+		053A71DF170FB4D65E3235AAF42F79AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ToygerService;
+			target = 5061DDA811805E406124F9EF8A30A0BA /* ToygerService */;
+			targetProxy = 03E4750CF2337363862E900F26220DD3 /* PBXContainerItemProxy */;
+		};
+		0CC54DE0C132B6A56CF3123410FC82C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozIdentityManager;
+			target = 08578F12320A56A7DBD47EEC2612A887 /* ZolozIdentityManager */;
+			targetProxy = 017530B748315FEA7F47321B12C4D6C8 /* PBXContainerItemProxy */;
+		};
+		1AD842329EDF7973954A80230DD011F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozOpenPlatformBuild;
+			target = 024C579EE0E3704C47CDF3BF6561B379 /* ZolozOpenPlatformBuild */;
+			targetProxy = 50939DA1C9C52AC0CB71CF0BF360FF85 /* PBXContainerItemProxy */;
+		};
+		1E68202B75BFA713BEA06A5993B37B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCRDetectSDKForTech;
+			target = 6B48EBB30A463E0EC05769FFA46FC939 /* OCRDetectSDKForTech */;
+			targetProxy = C6AA228B9EF70BA061FECDB66AEC4D6E /* PBXContainerItemProxy */;
+		};
+		22416822F639AE861E84E4309E6BDA08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = 7DE24A219BCFD43D2CDBBB1DD54EDB71 /* PBXContainerItemProxy */;
+		};
+		23F54A71253E0F16B809C7379C6D806E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozIdentityManager;
+			target = 08578F12320A56A7DBD47EEC2612A887 /* ZolozIdentityManager */;
+			targetProxy = F06F8343D39F023C95CC8D3F2721C294 /* PBXContainerItemProxy */;
+		};
+		31F9EC9CB0138EA9B22192060B009DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AntVerify;
+			target = 0FF22C9B053BD2467A73ABCBDB62DD2E /* AntVerify */;
+			targetProxy = E4020D7946C4CCA3ED44CE1046C022AE /* PBXContainerItemProxy */;
+		};
+		32D43FFE921319E4DB942DB195A6B8A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCRDetectSDKForTech;
+			target = 6B48EBB30A463E0EC05769FFA46FC939 /* OCRDetectSDKForTech */;
+			targetProxy = A09405E77FFF980EA38677EF51CF467C /* PBXContainerItemProxy */;
+		};
+		3483BAD84154039C4D5750C87CE9F3C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = 086C0AB1E95683A7460BCA1A2F71671C /* PBXContainerItemProxy */;
+		};
+		3C6C39F655AE617825A1ED4C79AF90BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozOpenPlatformBuild;
+			target = 024C579EE0E3704C47CDF3BF6561B379 /* ZolozOpenPlatformBuild */;
+			targetProxy = F6A5A30C34A1CC1CFEB568EF3D92C614 /* PBXContainerItemProxy */;
+		};
+		3EFC3C75DB5E20D59994E50974F96CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthAPI;
+			target = 58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */;
+			targetProxy = AB39AFFC0DB11B87ABD8FFF0B7DA64E5 /* PBXContainerItemProxy */;
+		};
+		434A7B59A887A2FE4D5A0141ED3DB2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozIdentityManager;
+			target = 08578F12320A56A7DBD47EEC2612A887 /* ZolozIdentityManager */;
+			targetProxy = 5454FBD6641BD92BE934B9C6D3ED9A1C /* PBXContainerItemProxy */;
+		};
+		46A354ACE1505D5C112975065F6CB166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = E9A76A4A356847FE9919BB8A5F688C95 /* PBXContainerItemProxy */;
+		};
+		477D46803FD52B32328B879ECAF26669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ToygerService;
+			target = 5061DDA811805E406124F9EF8A30A0BA /* ToygerService */;
+			targetProxy = 78983D704B3346E268509796D1C8F400 /* PBXContainerItemProxy */;
+		};
+		4AD734F319D809639845E226F466F2BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APPSecuritySDK;
+			target = DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */;
+			targetProxy = 3014A0D4877416C71786C0F75060254E /* PBXContainerItemProxy */;
+		};
+		54CFFEFBB69B3C4C54455CD30CB8105F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = 3BF2A4E7C1400E2CAE54F1C16509BBC7 /* PBXContainerItemProxy */;
+		};
+		5522C01169C7357A55ED3BA94BEDA208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ToygerService;
+			target = 5061DDA811805E406124F9EF8A30A0BA /* ToygerService */;
+			targetProxy = 5225676D10F97DE85C72A87EFFE54F58 /* PBXContainerItemProxy */;
+		};
+		5533428DDEF4265ED6A4F6DFCC6A21B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozMobileRPC;
+			target = 05B77124956830D55E70AD231B37A5AC /* ZolozMobileRPC */;
+			targetProxy = 1FB6806707D221ADD701D6505893EA42 /* PBXContainerItemProxy */;
+		};
+		5715BE37F51F184C5DF8A16977675B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlipayVerifySDK;
+			target = 8FCB6AB8BA54586A6810A8B628CAFDA0 /* AlipayVerifySDK */;
+			targetProxy = D2D914C72E2B4425D5D7EC844BA466F1 /* PBXContainerItemProxy */;
+		};
+		60424551C8DF01EEAB4A2412D55AE9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APPSecuritySDK;
+			target = DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */;
+			targetProxy = A168235A383D6E8ECC791A6C3FC087CB /* PBXContainerItemProxy */;
+		};
+		656A54CD8CFE58296EF9C014FCAD3ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPRemoteLogging;
+			target = E97FB44DFFF423B7FA9B95C95366CA44 /* MPRemoteLogging */;
+			targetProxy = FE4C459C193905675A14C0520607BE41 /* PBXContainerItemProxy */;
+		};
+		6C7D68D35141BC93F1649A181B2F5234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunIdentityManager;
+			target = 3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */;
+			targetProxy = 20647C2CAA8387F1359867995345DE6D /* PBXContainerItemProxy */;
+		};
+		73C702E41A401679335E43A8ACEA8B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPRemoteLogging;
+			target = E97FB44DFFF423B7FA9B95C95366CA44 /* MPRemoteLogging */;
+			targetProxy = 993F88D09244BDA23725C7A82D9A5F84 /* PBXContainerItemProxy */;
+		};
+		759807139703BD95EBAF8ED4128AE11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = 61F0280D8157FE2F3E9FEB9557CF700B /* PBXContainerItemProxy */;
+		};
+		762122CB2DDABBE3CA2CD7695E5BBCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APBToygerFacade;
+			target = F4231A651743A9B63DDD86BA0D7EF9EF /* APBToygerFacade */;
+			targetProxy = 5F2F10E5D2887ED1C3DEE120FB4AA606 /* PBXContainerItemProxy */;
+		};
+		7937D11D5F30C0D8F10CC6AC6B3E1BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APBToygerFacade;
+			target = F4231A651743A9B63DDD86BA0D7EF9EF /* APBToygerFacade */;
+			targetProxy = D7A45D69FDE820B3DE1E9381C3361816 /* PBXContainerItemProxy */;
+		};
+		7E9AC58C162FE5C57582C2EA54B09746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunIdentityManager;
+			target = 3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */;
+			targetProxy = DFBCE198D035A956C081FB10F9544C29 /* PBXContainerItemProxy */;
+		};
+		7EBF2FF14FF98314F15F786D91FA2542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunIdentityManager;
+			target = 3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */;
+			targetProxy = 92A2BEE067513622B19B7C22E4EA236E /* PBXContainerItemProxy */;
+		};
+		80A6DDFC8710CCE00C4F34C839274C36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ToygerService;
+			target = 5061DDA811805E406124F9EF8A30A0BA /* ToygerService */;
+			targetProxy = 377D9754CF24AB40C727F553C9C14546 /* PBXContainerItemProxy */;
+		};
+		821B5FA7E80D9DFD53D73F158A1FE6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthAPI;
+			target = 58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */;
+			targetProxy = E93F85B17C198C86409CE52CBA722F75 /* PBXContainerItemProxy */;
+		};
+		82502165594CC3569B816A7EC51E8BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPRemoteLogging;
+			target = E97FB44DFFF423B7FA9B95C95366CA44 /* MPRemoteLogging */;
+			targetProxy = D857F44AA2C11F23CB94073E8548250F /* PBXContainerItemProxy */;
+		};
+		88DC5A8107D6705CA244B6F48B8D1BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunIdentityManager;
+			target = 3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */;
+			targetProxy = 9ECA99A0A1A0A842834EB8891DF2BE00 /* PBXContainerItemProxy */;
+		};
+		8A8B972B20776E1A87AA059F3084BABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozOpenPlatformBuild;
+			target = 024C579EE0E3704C47CDF3BF6561B379 /* ZolozOpenPlatformBuild */;
+			targetProxy = 8C3297D9A59468D9E09B1AEB075833CA /* PBXContainerItemProxy */;
+		};
+		8F7B13B4DD8796B9A821204065C6967A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthAPI;
+			target = 58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */;
+			targetProxy = A9D39B6F23C1B9A7CAF0D07E80C383CA /* PBXContainerItemProxy */;
+		};
+		9549C61E1B18EE658255EB1560A9284F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = 80342BD956EEA11F370B333D6983AEDA /* PBXContainerItemProxy */;
+		};
+		97171419D6C1981E0BCD2697B2A01538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APBToygerFacade;
+			target = F4231A651743A9B63DDD86BA0D7EF9EF /* APBToygerFacade */;
+			targetProxy = 6BCECF4A6EE1A265145C3D1C70B33969 /* PBXContainerItemProxy */;
+		};
+		98AAAEE4E3A2FD9457872B0E8B33A10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = 52BE6CD04A81A1F81D0E636EBA37238A /* PBXContainerItemProxy */;
+		};
+		9904AB9A49D48750E4F169FB1150C63F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = 2DA3E9F0F35658A99CD42ECE801911F0 /* PBXContainerItemProxy */;
+		};
+		9B16883A26BF24D97F20586EB6CD97C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = C98079EF31EA44537DE0C883FC899936 /* PBXContainerItemProxy */;
+		};
+		9E0852624AA481B508F1F9A6A71A2E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = B847B2A646DF29BC1726E5AACB1706EA /* PBXContainerItemProxy */;
+		};
+		A109468AA025BC2D3AFCA41C70B3422E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = C69943143F0806930B92B815EBBF1571 /* PBXContainerItemProxy */;
+		};
+		A40DA74F6AD25D2C6F8681DB3E4D5D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = 0CFF2961C8629055D8C615C8280FDBDD /* PBXContainerItemProxy */;
+		};
+		A4683D139D32E051F6715724FD123C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = 5F2C4AFA86757949CAB3382711C58AF4 /* PBXContainerItemProxy */;
+		};
+		A52F7F4869D6D485923936EA27482366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = 1C07B1D208474D1FBDCE2731A6718E2A /* PBXContainerItemProxy */;
+		};
+		A9BF0849AE06B078D9F651E8CAD7D15A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthAPI;
+			target = 58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */;
+			targetProxy = 01A486FF677D50E54E2FDEDCA0F3043A /* PBXContainerItemProxy */;
+		};
+		AAD336E30D565867077CF07B43F507F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = EDDBE6D1F0DEC3B4A93CE886ED77A54E /* PBXContainerItemProxy */;
+		};
+		AF85909215D96C7D931F3E2413AE65CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APBToygerFacade;
+			target = F4231A651743A9B63DDD86BA0D7EF9EF /* APBToygerFacade */;
+			targetProxy = 0930879FBD089ED618FEE41A83B9CE38 /* PBXContainerItemProxy */;
+		};
+		B268AD2F4B21EA233E3C180CB5F3CB6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlipayVerifySDK;
+			target = 8FCB6AB8BA54586A6810A8B628CAFDA0 /* AlipayVerifySDK */;
+			targetProxy = B68179A417E1989741BCA97E33463C5B /* PBXContainerItemProxy */;
+		};
+		B43FAC8939C7D104713D841A9A32A0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ToygerService;
+			target = 5061DDA811805E406124F9EF8A30A0BA /* ToygerService */;
+			targetProxy = 6B8FD6930CD0303E0D97979485122F86 /* PBXContainerItemProxy */;
+		};
+		B528C3F3B4C43C51DA5C3D89924E1B02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = C7901142EFD0D5AAC37832AAC9E668F4 /* PBXContainerItemProxy */;
+		};
+		B88D43DC2DAC4FE31491ED3E760B67D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = 11187E0095A56C2BB224034527DB7379 /* PBXContainerItemProxy */;
+		};
+		BEF349A27239134309B2CE18B0512E77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozMobileRPC;
+			target = 05B77124956830D55E70AD231B37A5AC /* ZolozMobileRPC */;
+			targetProxy = 8E70215B68422461640CDB608BA7FE52 /* PBXContainerItemProxy */;
+		};
+		C11635F83628710BBE839C6EB26A1EE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = 363CE6DFFDDBD177C02D6032EBCAD401 /* PBXContainerItemProxy */;
+		};
+		C31A323712EA420BA880953DF34B905F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = E36DEA075EF79727CE5EEF820B591302 /* PBXContainerItemProxy */;
+		};
+		C36B5C0127EC20C24BA8214435168F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozMobileRPC;
+			target = 05B77124956830D55E70AD231B37A5AC /* ZolozMobileRPC */;
+			targetProxy = 3FAA68866293097378779F83E337BFD6 /* PBXContainerItemProxy */;
+		};
+		C3A41C754757F71A6E613AA31480B4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozSensorServices;
+			target = 6AB87A3F57DD4A21EE21252C2B99418C /* ZolozSensorServices */;
+			targetProxy = 7B14215ED74194B705B48421379ED275 /* PBXContainerItemProxy */;
+		};
+		D50852EA9F6617C7DF2C8ACE5AF1B495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APPSecuritySDK;
+			target = DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */;
+			targetProxy = 8CEF2924076392B0C0DBB25BA4284B5F /* PBXContainerItemProxy */;
+		};
+		D81234A57650DDC49763ACCB677BCB1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCRDetectSDKForTech;
+			target = 6B48EBB30A463E0EC05769FFA46FC939 /* OCRDetectSDKForTech */;
+			targetProxy = 20338CD0BC61EC9C7FDC73D02E0F1D24 /* PBXContainerItemProxy */;
+		};
+		D938B7DC1C95449F35F21A3DF98605D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozMobileRPC;
+			target = 05B77124956830D55E70AD231B37A5AC /* ZolozMobileRPC */;
+			targetProxy = 26A00911D34457A7887DB6672CFE713B /* PBXContainerItemProxy */;
+		};
+		D9FF1FDEE2A329C1B7163121DA818F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunIdentityManager;
+			target = 3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */;
+			targetProxy = 8CA5D512F539730E8B525853308F99BA /* PBXContainerItemProxy */;
+		};
+		DAA3F4503C0A27521853FBC54B7B5D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APPSecuritySDK;
+			target = DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */;
+			targetProxy = C783474FC0AB3CB621D29037D991C529 /* PBXContainerItemProxy */;
+		};
+		E6546FB3C0AFE4B8E065F0BD1B73E97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthAPI;
+			target = 58ECDE45CA8C4E97FA6A8DEF3ADF5633 /* BioAuthAPI */;
+			targetProxy = 810C063E6ADC613E92453CF3944875A4 /* PBXContainerItemProxy */;
+		};
+		ED5EA81EA8F49B75AD0B1D4C460AB6F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZolozUtility;
+			target = 38DF7213013CE949C186ACF206DF7AD3 /* ZolozUtility */;
+			targetProxy = D1739A354F3D3878A38EA7B3BDC7E235 /* PBXContainerItemProxy */;
+		};
+		F5F03F30D146B2929B8219B540476189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = 229FCD7D71580ECDD8A3332997FAC01F /* PBXContainerItemProxy */;
+		};
+		F7DD072256E72C60A36ADD79CF670B10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BioAuthEngine;
+			target = 434A5D3EFA3E00A8C91C791A1E31DFA3 /* BioAuthEngine */;
+			targetProxy = DEE951E2496A89161D63AE614C591F54 /* PBXContainerItemProxy */;
+		};
+		F9DA166FE461DC224AB1AA1DF8D9A4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APPSecuritySDK;
+			target = DD32B9216FAA842D0CDADCF654DAAD41 /* APPSecuritySDK */;
+			targetProxy = B6DBAF28DF8C5BF2820BC8E9E6EBD46C /* PBXContainerItemProxy */;
+		};
+		FB492CA70C4DE945E568AE1648FD2BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MPRemoteLogging;
+			target = E97FB44DFFF423B7FA9B95C95366CA44 /* MPRemoteLogging */;
+			targetProxy = 3632F5DFE647AB68E333F4E99B115E40 /* PBXContainerItemProxy */;
+		};
+		FDD73A26631D7811E7878D227272D452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliyunIdentityManager;
+			target = 3B3FF4D8B2B41F944CE04EB3C8014F59 /* AliyunIdentityManager */;
+			targetProxy = 1B8829C39B0BB65C4F54368F6CD7ACAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0175FC8AB5F2D94231E05B17A1423478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B7CD05863A209F070E9EBCC01BD9A91 /* AntVerify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01EB9DBDC9139B8984369E5FDCB7F488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C189E3C37CA4ADD85318E64056150AC /* APBToygerFacade.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C569577EE3ED1466699B426DA7F772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7E386775FDE2C8C27AAB46018207F9 /* ZolozMobileRPC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05EDDC8231374AB57D4EA3A1C481C8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75545305C080B7AF385E3A8AF394E89 /* BioAuthEngine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15DA37B32987A702C2178F2C35001869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4EB1849A5AD9AEE28748C2864199B9 /* ZolozOpenPlatformBuild.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19741390246595EBD97A3FEC0C640652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A039AC87777D33A3843B26F41932ED /* BioAuthEngine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C89E681F08195B57AFE7BDC85FEA65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBD56310921493EFFD8D78802A86BCC /* BioAuthAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		240CC63F93D6E2A3D67E9E96D4DAEBCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEC099F52605AE9724BEEFFD03C8D6A /* APBToygerFacade.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4384BD4C19316D0F023263AE34C3B630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1753DA8531EBEEAED7B0D216B310D5 /* APPSecuritySDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5423381FE4DB5C344C958D5609938E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B55A0B7466565719E6DAEB11EFD2A17 /* AliyunIdentityManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E3DE2FE4423A3EE5588A9DC52F4246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F8C2920A70D74044CB65B769549324 /* APPSecuritySDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D62EF64AC0F0F846BFBD14F1571D90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772433F31D5D5C73F85E3DD422E11D53 /* ZolozIdentityManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68BA305005DCC3355B79CF1ACF0F3721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D42BB83D4B0F6465559FF5C99D386CB /* ZolozSensorServices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69119CEEF3D7BB1C1441188F5092A05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6065E90F1AC879F5C1AE5002C0E6E0 /* ZolozSensorServices.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		693D72587CBC66178704BF8C9B61295A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6553FC4C7447E508FA36A9660F7A9B1D /* MPRemoteLogging.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		735601E779D9AE4D1444D6FB1391FE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EEB62C9A727D36B7B5985D0A84A15FC /* AntVerify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AC21F84DED08C6375158E40EF4A9365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9BE8F746AA406887BDD38FC1DA52CC /* AlipayVerifySDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B8C4737EDCCDB14E0249F674C589A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BD67733969144F24D6A250D215715E /* AlipayVerifySDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C94BF025598D4D73224B5C9F200979F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44018A3656686BF0F19D51D8C76FCA1 /* ToygerService.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		82B9A50C5BADAE9FA616C0203E490699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DAE055CF346058366495C48BAF9C91 /* BioAuthAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A47C065F6871ADC58953413516148A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68F787B36D45B8221D4C3DE5E306CDD /* OCRDetectSDKForTech.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8516CCCC2E46FCE3C15E9FFF44CADB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED4176E625FE7F9A63E40F2DA0C094A /* Pods-AlipayVerifySDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlipayVerifySDKDemo/Pods-AlipayVerifySDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlipayVerifySDKDemo/Pods-AlipayVerifySDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85FB61D54C4E4535A8A6C122E3C59775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED09D254F0FBBEB09E216284A7967E9D /* ZolozUtility.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97D0C12B8255F4FF6CF20D4A6799F9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F756459E0B0E075376CB9D47053FA4 /* ZolozOpenPlatformBuild.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB0508665A0AAE4990AA05526D36FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0493E70048E9E973D22C72414DC2273A /* ZolozUtility.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A342F6B5BB1929D3B6C1598A0354AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F0E5040B170196F874300F4EF7E949 /* Pods-AlipayVerifySDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlipayVerifySDKDemo/Pods-AlipayVerifySDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlipayVerifySDKDemo/Pods-AlipayVerifySDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B803897C585D217EDD66EE337173710B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB2A7C3DA13FC0C38F2EFB54CAE64C2 /* AliyunIdentityManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53FCBCA6FCD3971052962C3270F79F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B518FC5D36D58268D1A9482CB87C057B /* OCRDetectSDKForTech.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2970C770BC6C5384871B28C993C7B46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791854AC4466562134A291B1DE37C3BE /* MPRemoteLogging.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E23933CACE3D038BCB91009F280C5C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EBA5057B599DD6B670E375F2D5C6BE2 /* ToygerService.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF02936FBBB527BBEBB695840CC424D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0912CF0CFD408B58F55D97D2717BED69 /* ZolozMobileRPC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE2CA609213569853A739F0B8C29DC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1BB721678C3ED36440F610D53D54B9 /* ZolozIdentityManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ED08D847767BA1C44F2BB34079F98A8 /* Build configuration list for PBXAggregateTarget "ZolozMobileRPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF02936FBBB527BBEBB695840CC424D0 /* Debug */,
+				02C569577EE3ED1466699B426DA7F772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32468450A17CC785598BDA4D943CC8AB /* Build configuration list for PBXAggregateTarget "ZolozIdentityManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2CA609213569853A739F0B8C29DC9C /* Debug */,
+				62D62EF64AC0F0F846BFBD14F1571D90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AEC7F3D9BC34B1281D1A32A4CDD8D6A /* Build configuration list for PBXNativeTarget "Pods-AlipayVerifySDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A342F6B5BB1929D3B6C1598A0354AD62 /* Debug */,
+				8516CCCC2E46FCE3C15E9FFF44CADB81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B5E736180E0F195CD3FADD7DC6446A /* Build configuration list for PBXAggregateTarget "OCRDetectSDKForTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53FCBCA6FCD3971052962C3270F79F8 /* Debug */,
+				83A47C065F6871ADC58953413516148A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452B38C0DA900F83D926A1A2534F037D /* Build configuration list for PBXAggregateTarget "ZolozOpenPlatformBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15DA37B32987A702C2178F2C35001869 /* Debug */,
+				97D0C12B8255F4FF6CF20D4A6799F9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B81FBC018DAF8D571F859AAF3675BB6 /* Build configuration list for PBXAggregateTarget "ToygerService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C94BF025598D4D73224B5C9F200979F /* Debug */,
+				E23933CACE3D038BCB91009F280C5C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6672F33B7FC458DE1BBE6D0689395191 /* Build configuration list for PBXAggregateTarget "MPRemoteLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2970C770BC6C5384871B28C993C7B46 /* Debug */,
+				693D72587CBC66178704BF8C9B61295A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B7D0845C6683F7668371272B90F7406 /* Build configuration list for PBXAggregateTarget "AliyunIdentityManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B803897C585D217EDD66EE337173710B /* Debug */,
+				5423381FE4DB5C344C958D5609938E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7437179E95A40A963B79335F682F5C17 /* Build configuration list for PBXAggregateTarget "APBToygerFacade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01EB9DBDC9139B8984369E5FDCB7F488 /* Debug */,
+				240CC63F93D6E2A3D67E9E96D4DAEBCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B133EC4EFC0AEAF9DEC6F69B11F6C99D /* Build configuration list for PBXAggregateTarget "AlipayVerifySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC21F84DED08C6375158E40EF4A9365 /* Debug */,
+				7B8C4737EDCCDB14E0249F674C589A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D7A040A94316BB0FD7C109B2A2753C /* Build configuration list for PBXAggregateTarget "APPSecuritySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4384BD4C19316D0F023263AE34C3B630 /* Debug */,
+				5E3DE2FE4423A3EE5588A9DC52F4246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61486B002984F169B4FAEBF38B5159C /* Build configuration list for PBXAggregateTarget "BioAuthEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05EDDC8231374AB57D4EA3A1C481C8BB /* Debug */,
+				19741390246595EBD97A3FEC0C640652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C6600AF4D0C5544587E6F29D7C9CD0 /* Build configuration list for PBXAggregateTarget "ZolozUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85FB61D54C4E4535A8A6C122E3C59775 /* Debug */,
+				9CB0508665A0AAE4990AA05526D36FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC219C321F840CADF04C2B7411893EC6 /* Build configuration list for PBXAggregateTarget "ZolozSensorServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69119CEEF3D7BB1C1441188F5092A05C /* Debug */,
+				68BA305005DCC3355B79CF1ACF0F3721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C8D80C33EBE65A665EF6F061B73284 /* Build configuration list for PBXAggregateTarget "AntVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0175FC8AB5F2D94231E05B17A1423478 /* Debug */,
+				735601E779D9AE4D1444D6FB1391FE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53CF19304FCB5C03CE7F8694266E6A2 /* Build configuration list for PBXAggregateTarget "BioAuthAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C89E681F08195B57AFE7BDC85FEA65F /* Debug */,
+				82B9A50C5BADAE9FA616C0203E490699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

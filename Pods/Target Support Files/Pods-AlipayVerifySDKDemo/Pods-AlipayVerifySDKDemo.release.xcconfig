@@ -1,0 +1,11 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/APBToygerFacade" "${PODS_ROOT}/APPSecuritySDK" "${PODS_ROOT}/AlipayVerifySDK" "${PODS_ROOT}/AliyunIdentityManager" "${PODS_ROOT}/BioAuthAPI" "${PODS_ROOT}/BioAuthEngine" "${PODS_ROOT}/MPRemoteLogging" "${PODS_ROOT}/OCRDetectSDKForTech" "${PODS_ROOT}/ToygerService" "${PODS_ROOT}/ZolozIdentityManager" "${PODS_ROOT}/ZolozMobileRPC" "${PODS_ROOT}/ZolozOpenPlatformBuild" "${PODS_ROOT}/ZolozSensorServices" "${PODS_ROOT}/ZolozUtility" $(PODS_ROOT)/APBToygerFacade $(PODS_ROOT)/APPSecuritySDK $(PODS_ROOT)/AlipayVerifySDK $(PODS_ROOT)/AliyunIdentityManager $(PODS_ROOT)/AntVerify $(PODS_ROOT)/BioAuthAPI $(PODS_ROOT)/BioAuthEngine $(PODS_ROOT)/MPRemoteLogging $(PODS_ROOT)/OCRDetectSDKForTech $(PODS_ROOT)/ToygerService $(PODS_ROOT)/ZolozIdentityManager $(PODS_ROOT)/ZolozMobileRPC $(PODS_ROOT)/ZolozOpenPlatformBuild $(PODS_ROOT)/ZolozSensorServices $(PODS_ROOT)/ZolozUtility
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"c++.1" -l"c++abi" -framework "APBToygerFacade" -framework "APPSecuritySDK" -framework "AVFoundation" -framework "Accelerate" -framework "AlipayVerifySDK" -framework "AliyunIdentityManager" -framework "AssetsLibrary" -framework "BioAuthAPI" -framework "BioAuthEngine" -framework "CoreLocation" -framework "CoreMotion" -framework "CoreTelephony" -framework "Foundation" -framework "MPRemoteLogging" -framework "OCRDetectSDKForTech" -framework "SystemConfiguration" -framework "ToygerService" -framework "UIKit" -framework "WebKit" -framework "ZolozIdentityManager" -framework "ZolozMobileRPC" -framework "ZolozOpenPlatformBuild" -framework "ZolozSensorServices" -framework "ZolozUtility"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

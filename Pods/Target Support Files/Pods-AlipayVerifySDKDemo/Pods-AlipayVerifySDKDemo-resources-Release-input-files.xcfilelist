@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-AlipayVerifySDKDemo/Pods-AlipayVerifySDKDemo-resources.sh
+${PODS_ROOT}/APBToygerFacade/APBToygerFacade.framework/APBToygerFacade.bundle
+${PODS_ROOT}/AlipayVerifySDK/AlipayVerifySDK.framework/AlipayVerifySDK.bundle
+${PODS_ROOT}/BioAuthEngine/BioAuthEngine.framework/BioAuthEngine.bundle
+${PODS_ROOT}/OCRDetectSDKForTech/OCRDetectSDKForTech.framework/OCRXMedia.bundle
+${PODS_ROOT}/ToygerService/ToygerService.framework/ToygerService.bundle

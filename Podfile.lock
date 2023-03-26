@@ -1,0 +1,112 @@
+PODS:
+  - AlipayVerifySDK (1.0.0.220906100851):
+    - AliyunIdentityManager
+    - APBToygerFacade
+    - APPSecuritySDK
+    - BioAuthAPI
+    - BioAuthEngine
+    - MPRemoteLogging
+    - OCRDetectSDKForTech
+    - ToygerService
+    - ZolozIdentityManager
+    - ZolozMobileRPC
+    - ZolozOpenPlatformBuild
+    - ZolozSensorServices
+    - ZolozUtility
+  - AliyunIdentityManager (1.0.0.220815153836):
+    - BioAuthEngine
+    - ZolozUtility
+  - AntVerify (1.0.0.220906113009):
+    - AlipayVerifySDK (= 1.0.0.220906100851)
+    - AliyunIdentityManager (= 1.0.0.220815153836)
+    - APBToygerFacade (= 1.2.10.220815134944)
+    - APPSecuritySDK (= 1.0.0.210812160250)
+    - BioAuthAPI (= 1.0.0.210506154224)
+    - BioAuthEngine (= 1.3.1.220815153836)
+    - MPRemoteLogging (= 1.3.1.220817162736)
+    - OCRDetectSDKForTech (= 1.0.0.220316184537)
+    - ToygerService (= 1.3.1.220419170722)
+    - ZolozIdentityManager (= 1.0.0.210205102931)
+    - ZolozMobileRPC (= 1.0.0.220316184537)
+    - ZolozOpenPlatformBuild (= 1.3.1.220815150129)
+    - ZolozSensorServices (= 1.3.1.210609183144)
+    - ZolozUtility (= 1.0.0.210615164905)
+  - APBToygerFacade (1.2.10.220815134944):
+    - BioAuthEngine
+    - ToygerService
+    - ZolozUtility
+  - APPSecuritySDK (1.0.0.210812160250)
+  - BioAuthAPI (1.0.0.210506154224)
+  - BioAuthEngine (1.3.1.220815153836):
+    - BioAuthAPI
+    - ZolozSensorServices
+    - ZolozUtility
+  - MPRemoteLogging (1.3.1.220817162736)
+  - OCRDetectSDKForTech (1.0.0.220316184537):
+    - AliyunIdentityManager
+    - BioAuthEngine
+    - ZolozSensorServices
+  - ToygerService (1.3.1.220419170722):
+    - APPSecuritySDK
+    - ZolozSensorServices
+    - ZolozUtility
+  - ZolozIdentityManager (1.0.0.210205102931):
+    - AliyunIdentityManager
+    - BioAuthEngine
+    - ZolozUtility
+  - ZolozMobileRPC (1.0.0.220316184537)
+  - ZolozOpenPlatformBuild (1.3.1.220815150129):
+    - AliyunIdentityManager
+    - APBToygerFacade
+    - APPSecuritySDK
+    - BioAuthAPI
+    - BioAuthEngine
+    - MPRemoteLogging
+    - ToygerService
+    - ZolozMobileRPC
+    - ZolozSensorServices
+    - ZolozUtility
+  - ZolozSensorServices (1.3.1.210609183144)
+  - ZolozUtility (1.0.0.210615164905)
+
+DEPENDENCIES:
+  - AntVerify (= 1.0.0.220906113009)
+
+SPEC REPOS:
+  https://code.aliyun.com/mpaas-public/podspecs.git:
+    - AlipayVerifySDK
+    - AliyunIdentityManager
+    - AntVerify
+    - APBToygerFacade
+    - APPSecuritySDK
+    - BioAuthAPI
+    - BioAuthEngine
+    - MPRemoteLogging
+    - OCRDetectSDKForTech
+    - ToygerService
+    - ZolozIdentityManager
+    - ZolozMobileRPC
+    - ZolozOpenPlatformBuild
+    - ZolozSensorServices
+    - ZolozUtility
+
+SPEC CHECKSUMS:
+  AlipayVerifySDK: 64707af4c4ee528fb9756f1f0051132a06821c74
+  AliyunIdentityManager: 91dd94798548275ac1fd2fe51cfe28e0bf3131fb
+  AntVerify: cd4a5db3bcca9f9a139c503f4a97739a8c830ad2
+  APBToygerFacade: 18c279ab33700fd144712f695e2cdcf18a10df9a
+  APPSecuritySDK: 65608e8aef50b9424de2c5f55bcaf312852f0567
+  BioAuthAPI: aa311096f8ba9097a6fa257494421aecd950c62c
+  BioAuthEngine: 016a28efc280f2752eb674fc0927f8752920c36b
+  MPRemoteLogging: 6e16af5fbd1b329d476a00f6439afdfcf6141fb0
+  OCRDetectSDKForTech: ee22bda0c1a27fe45a87d5c726deb1629d4e6f19
+  ToygerService: 0d015f04197617cbc675861d76625236836d7b1d
+  ZolozIdentityManager: 5304fbae2b5f7a8ead916f1a04fcebc6dba9be3b
+  ZolozMobileRPC: 33c338b4cad9b0d552faf7d4d55682e1194c27ea
+  ZolozOpenPlatformBuild: 3b80a2151776c5b93f62f6ebcfb5ac2269cf2f60
+  ZolozSensorServices: 47d67ec35c10a4d74ac5692fb31e4dcbd6508ff8
+  ZolozUtility: b8149325edbfed3df5de890103d29d854111fefe
+
+PODFILE CHECKSUM: f2f5b6672c609f37d1cf4fdc40c2de90c91d7d2c
+
+COCOAPODS: 1.11.3
